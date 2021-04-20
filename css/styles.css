@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #da95eb;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(129, 216, 231);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #d12424;
   text-decoration: underline;
 }
 
