@@ -39,7 +39,7 @@ $(function () {
                         )
                         .append("</button>");
                     $("#success > .alert-success").append(
-                        "<strong>Lo sentimos tu mensaje enviado a Anime y mas no ha podido ser enviado revisaremos tu solicitud. </strong>"
+                        "<strong>Your message has been sent. </strong>"
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
@@ -55,9 +55,9 @@ $(function () {
                         .append("</button>");
                     $("#success > .alert-danger").append(
                         $("<strong>").text(
-                            "Sorry " +
+                            "Lo sentimos " +
                                 firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                                ", Los servidores de anime y mas no estan disponibles revisaremos tu solicitud, te recordamos que igualmente puedes mandarnos mensaje atravez de nuestro correo electronico, solo tienes que pulsar el boton y te llevara a nuestro correo. Gracias por comprender."
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
