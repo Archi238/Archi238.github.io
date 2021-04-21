@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #f3e414;
+  color: #000000;
   text-align: left;
   background-color: rgb(53, 9, 173);
 }
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #ff9ece;
+  color: #ffe600;
   text-decoration: none;
   background-color: transparent;
 }
